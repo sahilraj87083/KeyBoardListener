@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(114, 160, 201);
+}
+
+.table{
+    background-color: rgb(201, 194, 194);
+    /* border-collapse: collapse; */
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+#keypressed{
+    text-transform: uppercase;
+}
